@@ -5,7 +5,7 @@ import resume from '../images/resume.png';
 const Me = (props) => {
 
     const aboutMe = [
-        "I'm a Mechatronics Engineering student at the University of Waterloo. I'm a software engineer and musician who loves combining the two to create tools that enhance the music making process fo musicians like myself.",
+        "I'm a Mechatronics Engineering student at the University of Waterloo. I'm a software engineer and musician who loves combining the two to create tools that enhance the music making process for musicians like myself.",
         "In the past I've worked as an embedded / firmware engineer, but most recently I've been at Audioworks developing SoundsUnite - a platform for creatives to learn and share their work."
     ]
 
