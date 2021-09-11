@@ -1,8 +1,12 @@
 import OffsetText from "../components/offsetText";
 import RESUME from '../RESUME.pdf';
 import resume from '../images/resume.png';
+import resume_hover from '../images/resume_hover.png';
+import { useState } from "react";
 
 const Me = (props) => {
+
+    const [hover, setHover] = useState(false);
 
     const aboutMe = [
         "I'm a Mechatronics Engineering student at the University of Waterloo. I'm a software engineer and musician who loves combining the two to create tools that enhance the music making process for musicians like myself.",
@@ -26,8 +30,8 @@ const Me = (props) => {
             </div>
 
             <div class="slide-in" style={{animationDuration: '0.5s', justifySelf: 'center'}}>
-                <a href={RESUME} target='_blank' without rel='noopener noreferrer'>
-                    <img style={{maxWidth: '10em'}} src={resume}></img>
+                <a href={RESUME} target='_blank' without rel='noopener noreferrer' onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}>
+                    <img style={{maxWidth: '10em'}} src={hover ? resume_hover : resume}></img>
                 </a>
             </div>
 
