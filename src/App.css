@@ -1,38 +1,144 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: 'Libertinus';
+  src: local('Libertinus'), url(./fonts/LibertinusSerif-Regular.otf) format('opentype');
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: 'Libertinus';
+  font-weight: bold;
+  font-style: italic;
+  src: local('Libertinus'), url(./fonts/LibertinusSerif-BoldItalic.otf) format('opentype');
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* animations */
+
+.slide-in {
+  animation-timing-function: ease-out; /* how the animation will behave */
+  animation-delay: 0s; /* how long to delay the animation from starting */
+  animation-iteration-count: 1; /* how many times the animation will play */
+  animation-name: slideIn; /* the name of the animation we defined above */
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(5vh);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.fade-in {
+  animation-timing-function: ease-out; /* how the animation will behave */
+  animation-delay: 0s; /* how long to delay the animation from starting */
+  animation-iteration-count: 1; /* how many times the animation will play */
+  animation-name: fadeIn; /* the name of the animation we defined above */
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+html {
+  background-color: #F5F5F5;
+}
+
+.App {
+  background-color: #F5F5F5;
+}
+
+.loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+  max-height: 50%;
+}
+
+.header {
+  height: 100vh;
+  background-color:#61dafb;
+  background:linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.2)), url("bg.jpg");
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.menu-buttons {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 44%;
+  left: 24%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.me {
+  padding: 4em;
+  display: grid;
+  grid-gap: 2em;
+  gap: 2em;
+}
+
+.me-hero {
+  display: grid;
+  grid-template-columns: min-content auto auto;
+  justify-content: center;
+
+
+  font-family: Libertinus, serif;
+  font-style: italic;
+  line-height: 100%;
+  margin-top: -4em;
+  padding-bottom: 2em;
+}
+
+.me-hero-image {
+  background:url("images/stphn.jpg");
+  width: 694px;
+  height: 470px;
+}
+
+.me-hero-text {
+  color: #FFAF82;
+  font-size: 42px;
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.15);
+
+  align-self: flex-end;
+  margin-left: -740px;
+  margin-bottom: -44px;
+}
+
+.me-hero-stars {
+  background:url("images/Stars.svg");
+  width: 124px;
+  height: 121px;
+  background-repeat: no-repeat;
+
+  margin-left: -40px;
+  margin-top: 44px;
+  align-self: flex-start;
+}
+
+.me-about {
+  justify-self: center;
+  font-family: Libertinus, serif;
+}
+
+.me-about > p {
+  color: #545454;
+  font-size: large;
+  line-height: 25px;
+  max-width: 694px;
 }
