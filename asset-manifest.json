@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.e51eada1.chunk.css",
-    "main.js": "/react-gh-pages/static/js/main.bcc3cae0.chunk.js",
-    "main.js.map": "/react-gh-pages/static/js/main.bcc3cae0.chunk.js.map",
-    "runtime-main.js": "/react-gh-pages/static/js/runtime-main.a523ad46.js",
-    "runtime-main.js.map": "/react-gh-pages/static/js/runtime-main.a523ad46.js.map",
-    "static/js/2.12a90838.chunk.js": "/react-gh-pages/static/js/2.12a90838.chunk.js",
-    "static/js/2.12a90838.chunk.js.map": "/react-gh-pages/static/js/2.12a90838.chunk.js.map",
-    "static/js/3.b145541b.chunk.js": "/react-gh-pages/static/js/3.b145541b.chunk.js",
-    "static/js/3.b145541b.chunk.js.map": "/react-gh-pages/static/js/3.b145541b.chunk.js.map",
-    "index.html": "/react-gh-pages/index.html",
-    "static/css/main.e51eada1.chunk.css.map": "/react-gh-pages/static/css/main.e51eada1.chunk.css.map",
-    "static/js/2.12a90838.chunk.js.LICENSE.txt": "/react-gh-pages/static/js/2.12a90838.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/react-gh-pages/static/media/stphn.bff1fea0.jpg",
-    "static/media/RESUME.5b83f9af.pdf": "/react-gh-pages/static/media/RESUME.5b83f9af.pdf",
-    "static/media/resume.4392a334.png": "/react-gh-pages/static/media/resume.4392a334.png"
+    "main.css": "/static/css/main.01d7f641.chunk.css",
+    "main.js": "/static/js/main.bcc3cae0.chunk.js",
+    "main.js.map": "/static/js/main.bcc3cae0.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.343d8c79.js",
+    "runtime-main.js.map": "/static/js/runtime-main.343d8c79.js.map",
+    "static/js/2.12a90838.chunk.js": "/static/js/2.12a90838.chunk.js",
+    "static/js/2.12a90838.chunk.js.map": "/static/js/2.12a90838.chunk.js.map",
+    "static/js/3.b145541b.chunk.js": "/static/js/3.b145541b.chunk.js",
+    "static/js/3.b145541b.chunk.js.map": "/static/js/3.b145541b.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.01d7f641.chunk.css.map": "/static/css/main.01d7f641.chunk.css.map",
+    "static/js/2.12a90838.chunk.js.LICENSE.txt": "/static/js/2.12a90838.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/stphn.bff1fea0.jpg",
+    "static/media/RESUME.5b83f9af.pdf": "/static/media/RESUME.5b83f9af.pdf",
+    "static/media/resume.4392a334.png": "/static/media/resume.4392a334.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.a523ad46.js",
+    "static/js/runtime-main.343d8c79.js",
     "static/js/2.12a90838.chunk.js",
-    "static/css/main.e51eada1.chunk.css",
+    "static/css/main.01d7f641.chunk.css",
     "static/js/main.bcc3cae0.chunk.js"
   ]
 }
