@@ -4,9 +4,9 @@ import { HashRouter, Route } from "react-router-dom";
 
 function App() {
   return (
-    <HashRouter basename='/'>
-      <Route exact path="/" component={Me}/>
-    </HashRouter>
+      <HashRouter basename='/'>
+        <Route exact path="/" component={Me}/>
+      </HashRouter>
   );
 }
 

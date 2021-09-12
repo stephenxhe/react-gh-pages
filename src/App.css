@@ -1,3 +1,4 @@
+/* FONTS */
 @font-face {
   font-family: 'Libertinus';
   src: local('Libertinus'), url(./fonts/LibertinusSerif-Regular.otf) format('opentype');
@@ -10,8 +11,7 @@
   src: local('Libertinus'), url(./fonts/LibertinusSerif-BoldItalic.otf) format('opentype');
 }
 
-/* animations */
-
+/* ANIMATIONS */
 .slide-in {
   animation-timing-function: ease-out; /* how the animation will behave */
   animation-delay: 0s; /* how long to delay the animation from starting */
@@ -44,6 +44,11 @@
   100% {
     opacity: 1;
   }
+}
+
+.scroll-container {
+  position: relative;
+  height: 100%;
 }
 
 html {
@@ -85,7 +90,16 @@ html {
 }
 
 .me {
+  height: 100%;
   padding: 4em;
+  display: grid;
+  grid-gap: 2em;
+  gap: 2em;
+}
+
+.me-music {
+  padding: 4em;
+  padding-top: -2em;
   display: grid;
   grid-gap: 2em;
   gap: 2em;
@@ -101,7 +115,7 @@ html {
   font-style: italic;
   line-height: 100%;
   margin-top: -4em;
-  padding-bottom: 2em;
+  padding-bottom: 1em;
 }
 
 .me-hero-image {
@@ -140,5 +154,5 @@ html {
   color: #545454;
   font-size: large;
   line-height: 25px;
-  max-width: 694px;
+  max-width: 800px;
 }
