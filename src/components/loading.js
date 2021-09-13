@@ -1,9 +1,11 @@
-import loading from "../../src/loading.gif"
+import WIP from "../images/WIP.png"
 
 const Loading = (props) => {
 
     return (
-        <img src={loading} class="loading" alt="loading..."/>
+        <div>
+            <img src={WIP} class="slide-in" style={{animationDuration: '0.5s'}} alt="loading..."/>
+        </div>
     )
 }
 
