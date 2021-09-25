@@ -152,3 +152,20 @@ html {
   justify-content: center;
   gap: 2em;
 }
+
+.songCard {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.songCard-text {
+  justify-self: center;
+  font-family: Libertinus, serif;
+}
+
+.songCard-text > p {
+  color: #545454;
+  font-size: large;
+  line-height: 25px;
+  max-width: 800px;
+}

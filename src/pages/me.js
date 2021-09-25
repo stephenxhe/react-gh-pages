@@ -1,4 +1,4 @@
-import OffsetText from "../components/offsetText";
+import OffsetText from "../components/shared/offsetText";
 import RESUME from '../RESUME.pdf';
 import resume from '../images/resume.png';
 import resume_hover from '../images/resume_hover.png';
@@ -16,12 +16,6 @@ const Me = (props) => {
     const aboutMe = [
         "I'm a Mechatronics Engineering student at the University of Waterloo. I'm a software engineer and musician who loves combining the two to create tools that enhance the music making process for musicians like myself.",
         "In the past I've worked as an embedded / firmware engineer, but most recently I've been at Audioworks developing SoundsUnite - a platform for musicians to learn new skills and share their work with other creatives."
-    ]
-
-    const musicText = [
-        "I release the music I make as stphn (real creative artist name, I know) and you can find me on all streaming platforms. I've been producing since 2010, and I recently started singing over my own production.",
-        "Ableton is my DAW of choice, but like most kids starting out I used FL studio for my first 5 or 6 years of producing. I play piano and drums, and I dabble with guitar (but most of the songs I've put out are built around loops - shhh 🤫).",
-        "Check out some of my songs below!"
     ]
 
     return (
