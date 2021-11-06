@@ -1,6 +1,11 @@
 import Loading from "../components/loading";
 import SpotifyFollow from "../components/music/spotifyFollow";
 import SongCard from "../components/music/songCard";
+import CALI_art from "../images/music/CALI_art.png";
+import CALI_title from "../images/music/CALI_title.png";
+import OMW_art from "../images/music/OMW_art.png";
+import OMW_title from "../images/music/OMW_title.png";
+
 
 const Music = (props) => {
     const musicText = [
@@ -16,16 +21,23 @@ const Music = (props) => {
     ]
 
     const caliOffsets = [
-        "-50px",
-        "0px",
-        "50px"
+        "50px",
+        "10px",
+        "80px"
+    ]
+
+    const omwText = [
+        "The guitar is a splice loop lol. Don’t hate me.",
+        "The chorus is heavily inspired by an unreleased song by Aries - ETA (come to think of it, so is the name). As usual, I freestyled the hook and figured out verses to fit in between.",
+        "A good chunk of both verses was inspired by a yearning for fame as well as disdain for the business / marketing side of being an artist. I just wanna write songs stop asking me to make tik toks."
     ]
 
     return (
         <div class="music">
-            <Loading/>
-            {/* <SongCard text={caliText} offsets={caliOffsets}/> */}
-            <SpotifyFollow />
+            {/* <Loading/> */}
+            <SongCard order={1}text={caliText} offsets={caliOffsets} art={CALI_art} title={CALI_title}/>
+            <SongCard order={2} text={omwText} offsets={caliOffsets} art={OMW_art} title={OMW_title}/>
+            {/* <SpotifyFollow /> */}
         </div>
     )
 }
