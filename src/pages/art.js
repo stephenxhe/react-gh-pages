@@ -9,11 +9,11 @@ const Art = (props) => {
     return (
         <div style={{height: '100vh', width: '100vw', backgroundColor: 'white', display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '5em'}}>
             <Link to="/ig" target={"_blank"} rel="noopener noreferrer" style={{height: '10%', position: 'absolute', top: '1em'}}>
-                <img src={ig} style={{height: '60%'}}/>
+                <img src={ig} style={{width: '2vw'}}/>
             </Link>
-            <img src={sun} style={{height: '50%', marginTop: '8em'}}/>
-            <img src={moon} style={{height: '50%'}}/>
-            <img src={bee} style={{height: '50%', marginBottom: '18em', marginLeft: '-8em'}}/>
+            <img src={sun} style={{width: '25vw', marginTop: '8em'}}/>
+            <img src={moon} style={{width: '25vw'}}/>
+            <img src={bee} style={{width: '25vw', marginBottom: '20em'}}/>
         </div>
     )
 }
